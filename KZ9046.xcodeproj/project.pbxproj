@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EADD0BC5225B433000E2C8DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADD0BC4225B433000E2C8DF /* AppDelegate.swift */; };
+		EADD0BC7225B433000E2C8DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADD0BC6225B433000E2C8DF /* ViewController.swift */; };
+		EADD0BCA225B433000E2C8DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADD0BC8225B433000E2C8DF /* Main.storyboard */; };
+		EADD0BCD225B433000E2C8DF /* KZ9046.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EADD0BCB225B433000E2C8DF /* KZ9046.xcdatamodeld */; };
+		EADD0BCF225B433300E2C8DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EADD0BCE225B433300E2C8DF /* Assets.xcassets */; };
+		EADD0BD2225B433300E2C8DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADD0BD0225B433300E2C8DF /* LaunchScreen.storyboard */; };
+		EADD0BDD225B433300E2C8DF /* KZ9046Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADD0BDC225B433300E2C8DF /* KZ9046Tests.swift */; };
+		EADD0BE8225B433300E2C8DF /* KZ9046UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADD0BE7225B433300E2C8DF /* KZ9046UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EADD0BD9225B433300E2C8DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EADD0BB9225B433000E2C8DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EADD0BC0225B433000E2C8DF;
+			remoteInfo = KZ9046;
+		};
+		EADD0BE4225B433300E2C8DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EADD0BB9225B433000E2C8DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EADD0BC0225B433000E2C8DF;
+			remoteInfo = KZ9046;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EADD0BC1225B433000E2C8DF /* KZ9046.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ9046.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADD0BC4225B433000E2C8DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EADD0BC6225B433000E2C8DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EADD0BC9225B433000E2C8DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EADD0BCC225B433000E2C8DF /* KZ9046.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KZ9046.xcdatamodel; sourceTree = "<group>"; };
+		EADD0BCE225B433300E2C8DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EADD0BD1225B433300E2C8DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EADD0BD3225B433300E2C8DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EADD0BD8225B433300E2C8DF /* KZ9046Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KZ9046Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADD0BDC225B433300E2C8DF /* KZ9046Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KZ9046Tests.swift; sourceTree = "<group>"; };
+		EADD0BDE225B433300E2C8DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EADD0BE3225B433300E2C8DF /* KZ9046UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KZ9046UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADD0BE7225B433300E2C8DF /* KZ9046UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KZ9046UITests.swift; sourceTree = "<group>"; };
+		EADD0BE9225B433300E2C8DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EADD0BBE225B433000E2C8DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADD0BD5225B433300E2C8DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADD0BE0225B433300E2C8DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EADD0BB8225B433000E2C8DF = {
+			isa = PBXGroup;
+			children = (
+				EADD0BC3225B433000E2C8DF /* KZ9046 */,
+				EADD0BDB225B433300E2C8DF /* KZ9046Tests */,
+				EADD0BE6225B433300E2C8DF /* KZ9046UITests */,
+				EADD0BC2225B433000E2C8DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EADD0BC2225B433000E2C8DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EADD0BC1225B433000E2C8DF /* KZ9046.app */,
+				EADD0BD8225B433300E2C8DF /* KZ9046Tests.xctest */,
+				EADD0BE3225B433300E2C8DF /* KZ9046UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EADD0BC3225B433000E2C8DF /* KZ9046 */ = {
+			isa = PBXGroup;
+			children = (
+				EADD0BC4225B433000E2C8DF /* AppDelegate.swift */,
+				EADD0BC6225B433000E2C8DF /* ViewController.swift */,
+				EADD0BC8225B433000E2C8DF /* Main.storyboard */,
+				EADD0BCE225B433300E2C8DF /* Assets.xcassets */,
+				EADD0BD0225B433300E2C8DF /* LaunchScreen.storyboard */,
+				EADD0BD3225B433300E2C8DF /* Info.plist */,
+				EADD0BCB225B433000E2C8DF /* KZ9046.xcdatamodeld */,
+			);
+			path = KZ9046;
+			sourceTree = "<group>";
+		};
+		EADD0BDB225B433300E2C8DF /* KZ9046Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EADD0BDC225B433300E2C8DF /* KZ9046Tests.swift */,
+				EADD0BDE225B433300E2C8DF /* Info.plist */,
+			);
+			path = KZ9046Tests;
+			sourceTree = "<group>";
+		};
+		EADD0BE6225B433300E2C8DF /* KZ9046UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EADD0BE7225B433300E2C8DF /* KZ9046UITests.swift */,
+				EADD0BE9225B433300E2C8DF /* Info.plist */,
+			);
+			path = KZ9046UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EADD0BC0225B433000E2C8DF /* KZ9046 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EADD0BEC225B433300E2C8DF /* Build configuration list for PBXNativeTarget "KZ9046" */;
+			buildPhases = (
+				EADD0BBD225B433000E2C8DF /* Sources */,
+				EADD0BBE225B433000E2C8DF /* Frameworks */,
+				EADD0BBF225B433000E2C8DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KZ9046;
+			productName = KZ9046;
+			productReference = EADD0BC1225B433000E2C8DF /* KZ9046.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EADD0BD7225B433300E2C8DF /* KZ9046Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EADD0BEF225B433300E2C8DF /* Build configuration list for PBXNativeTarget "KZ9046Tests" */;
+			buildPhases = (
+				EADD0BD4225B433300E2C8DF /* Sources */,
+				EADD0BD5225B433300E2C8DF /* Frameworks */,
+				EADD0BD6225B433300E2C8DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EADD0BDA225B433300E2C8DF /* PBXTargetDependency */,
+			);
+			name = KZ9046Tests;
+			productName = KZ9046Tests;
+			productReference = EADD0BD8225B433300E2C8DF /* KZ9046Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EADD0BE2225B433300E2C8DF /* KZ9046UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EADD0BF2225B433300E2C8DF /* Build configuration list for PBXNativeTarget "KZ9046UITests" */;
+			buildPhases = (
+				EADD0BDF225B433300E2C8DF /* Sources */,
+				EADD0BE0225B433300E2C8DF /* Frameworks */,
+				EADD0BE1225B433300E2C8DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EADD0BE5225B433300E2C8DF /* PBXTargetDependency */,
+			);
+			name = KZ9046UITests;
+			productName = KZ9046UITests;
+			productReference = EADD0BE3225B433300E2C8DF /* KZ9046UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EADD0BB9225B433000E2C8DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = kezi;
+				TargetAttributes = {
+					EADD0BC0225B433000E2C8DF = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					EADD0BD7225B433300E2C8DF = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = EADD0BC0225B433000E2C8DF;
+					};
+					EADD0BE2225B433300E2C8DF = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = EADD0BC0225B433000E2C8DF;
+					};
+				};
+			};
+			buildConfigurationList = EADD0BBC225B433000E2C8DF /* Build configuration list for PBXProject "KZ9046" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EADD0BB8225B433000E2C8DF;
+			productRefGroup = EADD0BC2225B433000E2C8DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EADD0BC0225B433000E2C8DF /* KZ9046 */,
+				EADD0BD7225B433300E2C8DF /* KZ9046Tests */,
+				EADD0BE2225B433300E2C8DF /* KZ9046UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EADD0BBF225B433000E2C8DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADD0BD2225B433300E2C8DF /* LaunchScreen.storyboard in Resources */,
+				EADD0BCF225B433300E2C8DF /* Assets.xcassets in Resources */,
+				EADD0BCA225B433000E2C8DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADD0BD6225B433300E2C8DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADD0BE1225B433300E2C8DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EADD0BBD225B433000E2C8DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADD0BC7225B433000E2C8DF /* ViewController.swift in Sources */,
+				EADD0BC5225B433000E2C8DF /* AppDelegate.swift in Sources */,
+				EADD0BCD225B433000E2C8DF /* KZ9046.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADD0BD4225B433300E2C8DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADD0BDD225B433300E2C8DF /* KZ9046Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADD0BDF225B433300E2C8DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADD0BE8225B433300E2C8DF /* KZ9046UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EADD0BDA225B433300E2C8DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EADD0BC0225B433000E2C8DF /* KZ9046 */;
+			targetProxy = EADD0BD9225B433300E2C8DF /* PBXContainerItemProxy */;
+		};
+		EADD0BE5225B433300E2C8DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EADD0BC0225B433000E2C8DF /* KZ9046 */;
+			targetProxy = EADD0BE4225B433300E2C8DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EADD0BC8225B433000E2C8DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EADD0BC9225B433000E2C8DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EADD0BD0225B433300E2C8DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EADD0BD1225B433300E2C8DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EADD0BEA225B433300E2C8DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EADD0BEB225B433300E2C8DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EADD0BED225B433300E2C8DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KZ9046/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.kez.KZ9046;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EADD0BEE225B433300E2C8DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KZ9046/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.kez.KZ9046;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EADD0BF0225B433300E2C8DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KZ9046Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.kez.KZ9046Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KZ9046.app/KZ9046";
+			};
+			name = Debug;
+		};
+		EADD0BF1225B433300E2C8DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KZ9046Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.kez.KZ9046Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KZ9046.app/KZ9046";
+			};
+			name = Release;
+		};
+		EADD0BF3225B433300E2C8DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KZ9046UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.kez.KZ9046UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KZ9046;
+			};
+			name = Debug;
+		};
+		EADD0BF4225B433300E2C8DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KZ9046UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.kez.KZ9046UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KZ9046;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EADD0BBC225B433000E2C8DF /* Build configuration list for PBXProject "KZ9046" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADD0BEA225B433300E2C8DF /* Debug */,
+				EADD0BEB225B433300E2C8DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EADD0BEC225B433300E2C8DF /* Build configuration list for PBXNativeTarget "KZ9046" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADD0BED225B433300E2C8DF /* Debug */,
+				EADD0BEE225B433300E2C8DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EADD0BEF225B433300E2C8DF /* Build configuration list for PBXNativeTarget "KZ9046Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADD0BF0225B433300E2C8DF /* Debug */,
+				EADD0BF1225B433300E2C8DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EADD0BF2225B433300E2C8DF /* Build configuration list for PBXNativeTarget "KZ9046UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADD0BF3225B433300E2C8DF /* Debug */,
+				EADD0BF4225B433300E2C8DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EADD0BCB225B433000E2C8DF /* KZ9046.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EADD0BCC225B433000E2C8DF /* KZ9046.xcdatamodel */,
+			);
+			currentVersion = EADD0BCC225B433000E2C8DF /* KZ9046.xcdatamodel */;
+			path = KZ9046.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EADD0BB9225B433000E2C8DF /* Project object */;
+}
