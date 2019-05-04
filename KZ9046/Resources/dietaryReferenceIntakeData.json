@@ -1,0 +1,2437 @@
+[
+    {
+        "nutrients": ["vitaminARetinol", "vitaminABetaCarotene", "vitaminAAlphaCarotene", "vitaminABetaCryptoxanthi"],
+        "unit": "μg RAE",
+        "buckets": [
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "7 months",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 400,
+                    "ul": 600
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "7 months",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "1 year",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 500,
+                    "ul": 600
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "1 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "4 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 210,
+                    "rda": 300,
+                    "ul": 600
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "4 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "9 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 275,
+                    "rda": 400,
+                    "ul": 900
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "gender",
+                        "value": "male"
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "9 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 445,
+                    "rda": 600,
+                    "ul": 1700
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "gender",
+                        "value": "male"
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 630,
+                    "rda": 900,
+                    "ul": 2800
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "gender",
+                        "value": "male"
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": ">="
+                    }
+                ],
+                "values": {
+                    "ear": 625,
+                    "rda": 900,
+                    "ul": 3000
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "gender",
+                        "value": "female"
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "9 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 420,
+                    "rda": 600,
+                    "ul": 1700
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "gender",
+                        "value": "female"
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 485,
+                    "rda": 700,
+                    "ul": 2800
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "gender",
+                        "value": "female"
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": ">="
+                    }
+                ],
+                "values": {
+                    "ear": 500,
+                    "rda": 700,
+                    "ul": 3000
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "pregnancy",
+                        "value": {
+                            "nonPregnancy": true
+                        },
+                        "relation": "!="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 530,
+                    "rda": 750,
+                    "ul": 2800
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "pregnancy",
+                        "value": {
+                            "nonPregnancy": true
+                        },
+                        "relation": "!="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": ">="
+                    }
+                ],
+                "values": {
+                    "ear": 550,
+                    "rda": 770,
+                    "ul": 3000
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "lactation",
+                        "value": {
+                            "nonLactation": true
+                        },
+                        "relation": "!="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 885,
+                    "rda": 1200,
+                    "ul": 2800
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "lactation",
+                        "value": {
+                            "nonLactation": true
+                        },
+                        "relation": "!="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": ">="
+                    }
+                ],
+                "values": {
+                    "ear": 900,
+                    "rda": 1300,
+                    "ul": 3000
+                }
+            }
+        ]
+    },
+    {
+        "nutrients": ["vitaminD"],
+        "unit": "μg",
+        "buckets": [
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "7 months",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 10,
+                    "ul": 25
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "7 months",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "1 year",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 10,
+                    "ul": 38
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "1 year",
+                        "relation": ">="
+                    }
+                ],
+                "values": {
+                    "ear": 10,
+                    "rda": 15
+                    "ul": 100
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "1 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "4 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ul": 63
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "4 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "9 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ul": 75
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "70 years",
+                        "relation": ">="
+                    }
+                ],
+                "values": {
+                    "rda": 20
+                }
+            }
+        ]
+    },
+    {
+        "nutrients": ["vitaminE"],
+        "unit": "mg",
+        "buckets": [
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "7 months",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 4
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "7 months",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "1 year",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 5
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "1 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "4 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 5,
+                    "rda": 6,
+                    "ul": 200
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "4 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "9 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 6,
+                    "rda": 7,
+                    "ul": 300
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "9 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 9,
+                    "rda": 11
+                    "ul": 600
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 12,
+                    "rda": 15
+                    "ul": 800
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": ">="
+                    }
+                ],
+                "values": {
+                    "ear": 12,
+                    "rda": 15
+                    "ul": 1000
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "lactation",
+                        "value": {
+                            "nonLactation": true
+                        },
+                        "relation": "!="
+                    }
+                ],
+                "values": {
+                    "ear": 16,
+                    "rda": 19
+                }
+            }
+        ]
+    },
+    {
+        "nutrients": ["vitaminK"],
+        "unit": "μg",
+        "buckets": [
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "7 months",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 2
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "7 months",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "1 year",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 2.5
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "1 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "4 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 30
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "4 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "9 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 55
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "9 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 60
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 75
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "gender",
+                        "value": "male"
+                    }
+                ],
+                "values": {
+                    "ai": 120
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "gender",
+                        "value": "female"
+                    }
+                ],
+                "values": {
+                    "ai": 90
+                }
+            }
+        ]
+    },
+    {
+        "nutrients": ["vitaminC"],
+        "unit": "mg",
+        "buckets": [
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "7 months",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 40
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "7 months",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "1 year",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 50
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "1 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "4 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 13,
+                    "rda": 15,
+                    "ul": 400
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "4 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "9 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 22,
+                    "rda": 25,
+                    "ul": 650
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "9 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 39,
+                    "rda": 45,
+                    "ul": 1200
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "gender",
+                        "value": "male"
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 63,
+                    "rda": 75,
+                    "ul": 1800
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "gender",
+                        "value": "female"
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 56,
+                    "rda": 65,
+                    "ul": 1800
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "gender",
+                        "value": "male"
+                    }
+                ],
+                "values": {
+                    "ear": 75,
+                    "rda": 90,
+                    "ul": 2000
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "gender",
+                        "value": "female"
+                    }
+                ],
+                "values": {
+                    "ear": 60,
+                    "rda": 75,
+                    "ul": 2000
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "pregnancy",
+                        "value": {
+                            "nonPregnancy": true
+                        },
+                        "relation": "!="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 66,
+                    "rda": 80,
+                    "ul": 1800
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "pregnancy",
+                        "value": {
+                            "nonPregnancy": true
+                        },
+                        "relation": "!="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": ">="
+                    }
+                ],
+                "values": {
+                    "ear": 70,
+                    "rda": 85,
+                    "ul": 2000
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "lactation",
+                        "value": {
+                            "nonLactation": true
+                        },
+                        "relation": "!="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 96,
+                    "rda": 115,
+                    "ul": 1800
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "lactation",
+                        "value": {
+                            "nonLactation": true
+                        },
+                        "relation": "!="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": ">="
+                    }
+                ],
+                "values": {
+                    "ear": 100,
+                    "rda": 120,
+                    "ul": 2000
+                }
+            }
+        ]
+    },
+    {
+        "nutrients": ["thiamin"],
+        "unit": "mg",
+        "buckets": [
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "7 months",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 0.2
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "7 months",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "1 year",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 0.3
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "1 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "4 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 0.4,
+                    "rda": 0.5
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "4 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "9 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 0.5,
+                    "rda": 0.6
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "9 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 0.7,
+                    "rda": 0.9
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "gender",
+                        "value": "male"
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": ">="
+                    }
+                ],
+                "values": {
+                    "ear": 1.0,
+                    "rda": 1.2
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "gender",
+                        "value": "female"
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 0.9,
+                    "rda": 1.0
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "gender",
+                        "value": "female"
+                    }
+                ],
+                "values": {
+                    "ear": 0.9,
+                    "rda": 1.1
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "pregnancy",
+                        "value": {
+                            "nonPregnancy": true
+                        },
+                        "relation": "!="
+                    }
+                ],
+                "values": {
+                    "ear": 1.2,
+                    "rda": 1.4
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "lactation",
+                        "value": {
+                            "nonLactation": true
+                        },
+                        "relation": "!="
+                    }
+                ],
+                "values": {
+                    "ear": 1.2,
+                    "rda": 1.4
+                }
+            }
+        ]
+    },
+    {
+        "nutrients": ["riboflavin"],
+        "unit": "mg",
+        "buckets": [
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "7 months",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 0.3
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "7 months",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "1 year",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 0.4
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "1 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "4 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 0.4,
+                    "rda": 0.5
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "4 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "9 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 0.5,
+                    "rda": 0.6
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "9 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 0.8,
+                    "rda": 0.9
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "gender",
+                        "value": "male"
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": ">="
+                    }
+                ],
+                "values": {
+                    "ear": 1.1,
+                    "rda": 1.3
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "gender",
+                        "value": "female"
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 0.9,
+                    "rda": 1.0
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "gender",
+                        "value": "female"
+                    }
+                ],
+                "values": {
+                    "ear": 0.9,
+                    "rda": 1.1
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "pregnancy",
+                        "value": {
+                            "nonPregnancy": true
+                        },
+                        "relation": "!="
+                    }
+                ],
+                "values": {
+                    "ear": 1.2,
+                    "rda": 1.4
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "lactation",
+                        "value": {
+                            "nonLactation": true
+                        },
+                        "relation": "!="
+                    }
+                ],
+                "values": {
+                    "ear": 1.3,
+                    "rda": 1.6
+                }
+            }
+        ]
+    },
+    {
+        "nutrients": ["niacin"],
+        "unit": "mg NE",
+        "buckets": [
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "7 months",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 2
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "7 months",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "1 year",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 4
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "1 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "4 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 5,
+                    "rda": 6,
+                    "ul": 10
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "4 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "9 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 6,
+                    "rda": 8,
+                    "ul": 15
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "9 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 9,
+                    "rda": 12,
+                    "ul": 20
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "gender",
+                        "value": "male"
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 12,
+                    "rda": 16,
+                    "ul": 30
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "gender",
+                        "value": "female"
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 11,
+                    "rda": 14,
+                    "ul": 30
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": ">="
+                    }
+                ],
+                "values": {
+                    "ul": 35
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "pregnancy",
+                        "value": {
+                            "nonPregnancy": true
+                        },
+                        "relation": "!="
+                    }
+                ],
+                "values": {
+                    "ear": 14,
+                    "rda": 18
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "lactation",
+                        "value": {
+                            "nonLactation": true
+                        },
+                        "relation": "!="
+                    }
+                ],
+                "values": {
+                    "ear": 13,
+                    "rda": 17
+                }
+            }
+        ]
+    },
+    {
+        "nutrients": ["vitaminB6"],
+        "unit": "mg",
+        "buckets": [
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "7 months",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 0.1
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "7 months",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "1 year",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 0.3
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "1 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "4 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 0.4,
+                    "rda": 0.5,
+                    "ul": 30
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "4 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "9 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 0.5,
+                    "rda": 0.6,
+                    "ul": 40
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "9 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 0.8,
+                    "rda": 1.0,
+                    "ul": 60
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "gender",
+                        "value": "male"
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 1.1,
+                    "rda": 1.3,
+                    "ul": 80
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "gender",
+                        "value": "female"
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 1.0,
+                    "rda": 1.2,
+                    "ul": 80
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "51 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 1.1,
+                    "rda": 1.3,
+                    "ul": 100
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "gender",
+                        "value": "male"
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "51 years",
+                        "relation": ">="
+                    }
+                ],
+                "values": {
+                    "ear": 1.4,
+                    "rda": 1.7,
+                    "ul": 100
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "gender",
+                        "value": "female"
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "51 years",
+                        "relation": ">="
+                    }
+                ],
+                "values": {
+                    "ear": 1.3,
+                    "rda": 1.5,
+                    "ul": 100
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "pregnancy",
+                        "value": {
+                            "nonPregnancy": true
+                        },
+                        "relation": "!="
+                    }
+                ],
+                "values": {
+                    "ear": 1.6,
+                    "rda": 1.9
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "lactation",
+                        "value": {
+                            "nonLactation": true
+                        },
+                        "relation": "!="
+                    }
+                ],
+                "values": {
+                    "ear": 1.7,
+                    "rda": 2.0
+                }
+            }
+        ]
+    },
+    {
+        "nutrients": ["folate"],
+        "unit": "μg DFE",
+        "buckets": [
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "7 months",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 65
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "7 months",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "1 year",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 80
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "1 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "4 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 120,
+                    "rda": 150,
+                    "ul": 300
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "4 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "9 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 160,
+                    "rda": 200,
+                    "ul": 400
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "9 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 250,
+                    "rda": 300,
+                    "ul": 600
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 330,
+                    "rda": 400,
+                    "ul": 800
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": ">="
+                    }
+                ],
+                "values": {
+                    "ear": 320,
+                    "rda": 400,
+                    "ul": 1000
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "pregnancy",
+                        "value": {
+                            "nonPregnancy": true
+                        },
+                        "relation": "!="
+                    }
+                ],
+                "values": {
+                    "ear": 520,
+                    "rda": 600
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "lactation",
+                        "value": {
+                            "nonLactation": true
+                        },
+                        "relation": "!="
+                    }
+                ],
+                "values": {
+                    "ear": 450,
+                    "rda": 500
+                }
+            }
+        ]
+    },
+    {
+        "nutrients": ["vitaminB12"],
+        "unit": "μg",
+        "buckets": [
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "7 months",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 0.4
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "7 months",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "1 year",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 0.5
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "1 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "4 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 0.7,
+                    "rda": 0.9
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "4 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "9 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 1.0,
+                    "rda": 1.2
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "9 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ear": 1.5,
+                    "rda": 1.8
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": ">="
+                    }
+                ],
+                "values": {
+                    "ear": 2.0,
+                    "rda": 2.4
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": ">="
+                    }
+                ],
+                "values": {
+                    "ear": 320,
+                    "rda": 400,
+                    "ul": 1000
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "pregnancy",
+                        "value": {
+                            "nonPregnancy": true
+                        },
+                        "relation": "!="
+                    }
+                ],
+                "values": {
+                    "ear": 2.2,
+                    "rda": 2.6
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "lactation",
+                        "value": {
+                            "nonLactation": true
+                        },
+                        "relation": "!="
+                    }
+                ],
+                "values": {
+                    "ear": 2.4,
+                    "rda": 2.8
+                }
+            }
+        ]
+    },
+    {
+        "nutrients": ["pantothenicAcid"],
+        "unit": "mg",
+        "buckets": [
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "7 months",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 1.7
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "7 months",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "1 year",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 1.8
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "1 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "4 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 2
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "4 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "9 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 3
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "9 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 4
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": ">="
+                    }
+                ],
+                "values": {
+                    "ai": 5
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "pregnancy",
+                        "value": {
+                            "nonPregnancy": true
+                        },
+                        "relation": "!="
+                    }
+                ],
+                "values": {
+                    "ai": 6
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "lactation",
+                        "value": {
+                            "nonLactation": true
+                        },
+                        "relation": "!="
+                    }
+                ],
+                "values": {
+                    "ai": 7
+                }
+            }
+        ]
+    },
+    {
+        "nutrients": ["biotin"],
+        "unit": "μg",
+        "buckets": [
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "7 months",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 5
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "7 months",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "1 year",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 6
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "1 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "4 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 8
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "4 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "9 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 12
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "9 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 20
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 25
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": ">="
+                    }
+                ],
+                "values": {
+                    "ai": 30
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "pregnancy",
+                        "value": {
+                            "nonPregnancy": true
+                        },
+                        "relation": "!="
+                    }
+                ],
+                "values": {
+                    "ai": 30
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "lactation",
+                        "value": {
+                            "nonLactation": true
+                        },
+                        "relation": "!="
+                    }
+                ],
+                "values": {
+                    "ai": 35
+                }
+            }
+        ]
+    },
+    {
+        "nutrients": ["choline"],
+        "unit": "mg",
+        "buckets": [
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "7 months",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 125
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "7 months",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "1 year",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 150
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "1 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "4 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 200,
+                    "ul": 1000
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "4 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "9 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 250,
+                    "ul": 1000
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "9 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 375,
+                    "ul": 2000
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "gender",
+                        "value": "male"
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 550,
+                    "ul": 3000
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "gender",
+                        "value": "female"
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "14 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": "<"
+                    }
+                ],
+                "values": {
+                    "ai": 400,
+                    "ul": 3000
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "gender",
+                        "value": "male"
+                    }
+                ],
+                "values": {
+                    "ai": 550,
+                    "ul": 3500
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "age",
+                        "value": "19 years",
+                        "relation": ">="
+                    },
+                    {
+                        "attribute": "gender",
+                        "value": "female"
+                    }
+                ],
+                "values": {
+                    "ai": 425,
+                    "ul": 3500
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "pregnancy",
+                        "value": {
+                            "nonPregnancy": true
+                        },
+                        "relation": "!="
+                    }
+                ],
+                "values": {
+                    "ai": 450
+                }
+            },
+            {
+                "filters": [
+                    {
+                        "attribute": "lactation",
+                        "value": {
+                            "nonLactation": true
+                        },
+                        "relation": "!="
+                    }
+                ],
+                "values": {
+                    "ai": 550
+                }
+            }
+        ]
+    }
+]
