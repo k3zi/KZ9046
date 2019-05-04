@@ -20,27 +20,27 @@ enum PhysicalActivity {
         case (.sedentary, _, _):
             return 1
 
-        case (.lowActive, Duration.years(3)...Duration.years(18), .male):
+        case (.lowActive, Duration.years(3)..<Duration.years(19), .male):
             return 1.13
-        case (.lowActive, Duration.years(3)...Duration.years(18), .female):
+        case (.lowActive, Duration.years(3)..<Duration.years(19), .female):
             return 1.16
         case (.lowActive, Duration.years(19)..., .male):
             return 1.11
         case (.lowActive, Duration.years(19)..., .female):
             return 1.12
 
-        case (.active, Duration.years(3)...Duration.years(18), .male):
+        case (.active, Duration.years(3)..<Duration.years(19), .male):
             return 1.26
-        case (.active, Duration.years(3)...Duration.years(18), .female):
+        case (.active, Duration.years(3)..<Duration.years(19), .female):
             return 1.31
         case (.active, Duration.years(19)..., .male):
             return 1.25
         case (.active, Duration.years(19)..., .female):
             return 1.27
 
-        case (.veryActive, Duration.years(3)...Duration.years(18), .male):
+        case (.veryActive, Duration.years(3)..<Duration.years(19), .male):
             return 1.42
-        case (.veryActive, Duration.years(3)...Duration.years(18), .female):
+        case (.veryActive, Duration.years(3)..<Duration.years(19), .female):
             return 1.56
         case (.veryActive, Duration.years(19)..., .male):
             return 1.48

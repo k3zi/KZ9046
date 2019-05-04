@@ -40,9 +40,9 @@ enum Lactation: Codable {
 
     var milkEnergyOutput: Double {
         switch self {
-        case .durationPostpartum(Duration.months(0)...Duration.months(6)):
+        case .durationPostpartum(Duration.months(0)..<Duration.months(7)):
             return 500
-        case .durationPostpartum(Duration.months(7)...Duration.months(12)):
+        case .durationPostpartum(Duration.months(7)..<Duration.months(12)):
             return 400
         default:
             return 0
@@ -51,7 +51,7 @@ enum Lactation: Codable {
 
     var weightLoss: Double {
         switch self {
-        case .durationPostpartum(Duration.months(0)...Duration.months(6)):
+        case .durationPostpartum(Duration.months(0)..<Duration.months(7)):
             return 170
         default:
             return 0
