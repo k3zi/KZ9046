@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA132387227E309E004C9B12 /* RetinolActivityEquivalentMass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA132386227E309E004C9B12 /* RetinolActivityEquivalentMass.swift */; };
+		EA132389227E30EB004C9B12 /* NutritionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA132388227E30EB004C9B12 /* NutritionInfo.swift */; };
+		EA13238B227E3133004C9B12 /* Nutrient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA13238A227E3133004C9B12 /* Nutrient.swift */; };
 		EA547CA32274D1C000A4385A /* DietaryReferenceIntakeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA547CA22274D1C000A4385A /* DietaryReferenceIntakeCalculator.swift */; };
 		EA547CA52274D24B00A4385A /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA547CA42274D24B00A4385A /* Gender.swift */; };
 		EA547CA72274D57200A4385A /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA547CA62274D57200A4385A /* Duration.swift */; };
@@ -19,7 +22,7 @@
 		EA547CB6227601AD00A4385A /* dietaryReferenceIntakeData.json in Resources */ = {isa = PBXBuildFile; fileRef = EA547CB5227601AD00A4385A /* dietaryReferenceIntakeData.json */; };
 		EA547CB82276796600A4385A /* DietaryReferenceIntake.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA547CB72276796600A4385A /* DietaryReferenceIntake.swift */; };
 		EA8D37FB2264131C0073D9A5 /* Macronutrient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8D37FA2264131C0073D9A5 /* Macronutrient.swift */; };
-		EA8D37FD226420B60073D9A5 /* Minerals.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8D37FC226420B60073D9A5 /* Minerals.swift */; };
+		EA8D37FD226420B60073D9A5 /* NutrientType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8D37FC226420B60073D9A5 /* NutrientType.swift */; };
 		EAC20B542272A0CF00D389C7 /* NutrientMassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC20B532272A0CF00D389C7 /* NutrientMassTests.swift */; };
 		EADD0BC5225B433000E2C8DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADD0BC4225B433000E2C8DF /* AppDelegate.swift */; };
 		EADD0BC7225B433000E2C8DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADD0BC6225B433000E2C8DF /* ViewController.swift */; };
@@ -29,7 +32,6 @@
 		EADD0BD2225B433300E2C8DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADD0BD0225B433300E2C8DF /* LaunchScreen.storyboard */; };
 		EADD0BDD225B433300E2C8DF /* KZ9046Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADD0BDC225B433300E2C8DF /* KZ9046Tests.swift */; };
 		EADD0BE8225B433300E2C8DF /* KZ9046UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADD0BE7225B433300E2C8DF /* KZ9046UITests.swift */; };
-		EADD0BF7225B445000E2C8DF /* Quantity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADD0BF6225B445000E2C8DF /* Quantity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA132386227E309E004C9B12 /* RetinolActivityEquivalentMass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetinolActivityEquivalentMass.swift; sourceTree = "<group>"; };
+		EA132388227E30EB004C9B12 /* NutritionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionInfo.swift; sourceTree = "<group>"; };
+		EA13238A227E3133004C9B12 /* Nutrient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nutrient.swift; sourceTree = "<group>"; };
 		EA547CA22274D1C000A4385A /* DietaryReferenceIntakeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietaryReferenceIntakeCalculator.swift; sourceTree = "<group>"; };
 		EA547CA42274D24B00A4385A /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
 		EA547CA62274D57200A4385A /* Duration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duration.swift; sourceTree = "<group>"; };
@@ -62,7 +67,7 @@
 		EA547CB5227601AD00A4385A /* dietaryReferenceIntakeData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dietaryReferenceIntakeData.json; sourceTree = "<group>"; };
 		EA547CB72276796600A4385A /* DietaryReferenceIntake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietaryReferenceIntake.swift; sourceTree = "<group>"; };
 		EA8D37FA2264131C0073D9A5 /* Macronutrient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macronutrient.swift; sourceTree = "<group>"; };
-		EA8D37FC226420B60073D9A5 /* Minerals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minerals.swift; sourceTree = "<group>"; };
+		EA8D37FC226420B60073D9A5 /* NutrientType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrientType.swift; sourceTree = "<group>"; };
 		EAC20B532272A0CF00D389C7 /* NutrientMassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrientMassTests.swift; sourceTree = "<group>"; };
 		EADD0BC1225B433000E2C8DF /* KZ9046.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ9046.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADD0BC4225B433000E2C8DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,7 +83,6 @@
 		EADD0BE3225B433300E2C8DF /* KZ9046UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KZ9046UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADD0BE7225B433300E2C8DF /* KZ9046UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KZ9046UITests.swift; sourceTree = "<group>"; };
 		EADD0BE9225B433300E2C8DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EADD0BF6225B445000E2C8DF /* Quantity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quantity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA132385227E3092004C9B12 /* Units */ = {
+			isa = PBXGroup;
+			children = (
+				EA132386227E309E004C9B12 /* RetinolActivityEquivalentMass.swift */,
+			);
+			path = Units;
+			sourceTree = "<group>";
+		};
 		EA547CB42276019600A4385A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,16 +194,18 @@
 		EADD0BF5225B43AE00E2C8DF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				EA132385227E3092004C9B12 /* Units */,
 				EA547CB72276796600A4385A /* DietaryReferenceIntake.swift */,
 				EA547CA22274D1C000A4385A /* DietaryReferenceIntakeCalculator.swift */,
 				EA547CA62274D57200A4385A /* Duration.swift */,
 				EA547CA42274D24B00A4385A /* Gender.swift */,
 				EA547CAC2274E99A00A4385A /* Lactation.swift */,
 				EA8D37FA2264131C0073D9A5 /* Macronutrient.swift */,
-				EA8D37FC226420B60073D9A5 /* Minerals.swift */,
+				EA13238A227E3133004C9B12 /* Nutrient.swift */,
+				EA8D37FC226420B60073D9A5 /* NutrientType.swift */,
+				EA132388227E30EB004C9B12 /* NutritionInfo.swift */,
 				EA547CA82274E1EE00A4385A /* PhysicalActivity.swift */,
 				EA547CAA2274E8A400A4385A /* Pregnancy.swift */,
-				EADD0BF6225B445000E2C8DF /* Quantity.swift */,
 				EA547CB22275025200A4385A /* ReferenceValue.swift */,
 			);
 			path = Models;
@@ -329,15 +343,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA132387227E309E004C9B12 /* RetinolActivityEquivalentMass.swift in Sources */,
 				EA547CA72274D57200A4385A /* Duration.swift in Sources */,
+				EA13238B227E3133004C9B12 /* Nutrient.swift in Sources */,
 				EA547CAD2274E99A00A4385A /* Lactation.swift in Sources */,
 				EA547CAB2274E8A400A4385A /* Pregnancy.swift in Sources */,
 				EADD0BC7225B433000E2C8DF /* ViewController.swift in Sources */,
-				EADD0BF7225B445000E2C8DF /* Quantity.swift in Sources */,
 				EA547CB32275025200A4385A /* ReferenceValue.swift in Sources */,
-				EA8D37FD226420B60073D9A5 /* Minerals.swift in Sources */,
+				EA8D37FD226420B60073D9A5 /* NutrientType.swift in Sources */,
 				EA8D37FB2264131C0073D9A5 /* Macronutrient.swift in Sources */,
 				EA547CA52274D24B00A4385A /* Gender.swift in Sources */,
+				EA132389227E30EB004C9B12 /* NutritionInfo.swift in Sources */,
 				EADD0BC5225B433000E2C8DF /* AppDelegate.swift in Sources */,
 				EA547CA92274E1EE00A4385A /* PhysicalActivity.swift in Sources */,
 				EA547CA32274D1C000A4385A /* DietaryReferenceIntakeCalculator.swift in Sources */,

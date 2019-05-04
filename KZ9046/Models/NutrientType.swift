@@ -8,25 +8,6 @@
 
 import Foundation
 
-struct NutritionInfo: Codable {
-
-    var nutrients: [Nutrient]
-
-    func add(nutrient: Nutrient) {
-        if let existingNutrient = nutrients.first(where: { $0.type == nutrient.type }) {
-
-        }
-    }
-
-}
-
-struct Nutrient: Codable {
-
-    let type: NutrientType
-    let amount: Measurement<NutrientMass>
-
-}
-
 enum NutrientType: String, Codable {
 
     enum Kind {
@@ -150,63 +131,6 @@ open class NutrientMass: UnitMass {
 
     open class override var milligrams: NutrientMass {
         return NutrientMass(symbol: "mg")
-    }
-
-}
-
-final class RetinolActivityEquivalentMass: Dimension, Codable {
-
-    enum Symbol: String, Codable {
-        case internationalUnit = "IU"
-
-        var converter: UnitConverter {
-            switch self {
-            case .internationalUnit:
-                return UnitConverterLinear(coefficient: 0.3, constant: 0)
-            }
-        }
-    }
-
-    let raeSymbol: String
-    let raeConverter: UnitConverter
-
-    override init(symbol: String, converter: UnitConverter) {
-        raeSymbol = symbol
-        raeConverter = converter
-        super.init(symbol: raeSymbol, converter: raeConverter)
-    }
-
-    init(from decoder: Decoder) throws {
-        let values = try decoder.singleValueContainer()
-        let symbol = try values.decode(Symbol.self)
-        raeSymbol = symbol.rawValue
-        raeConverter = symbol.converter
-        super.init(symbol: raeSymbol, converter: raeConverter)
-    }
-
-    func encode(to encoder: Encoder) throws {
-        var container = encoder.singleValueContainer()
-        try container.encode(raeSymbol)
-    }
-
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-
-    class var internationalUnits: RetinolActivityEquivalentMass {
-        return RetinolActivityEquivalentMass(symbol: "IU", converter: UnitConverterLinear(coefficient: 0.3, constant: 0))
-    }
-
-    class var micrograms: RetinolActivityEquivalentMass {
-        return RetinolActivityEquivalentMass(symbol: "μg", converter: UnitConverterLinear(coefficient: 1, constant: 0))
-    }
-
-    class var milligrams: RetinolActivityEquivalentMass {
-        return RetinolActivityEquivalentMass(symbol: "mg", converter: UnitConverterLinear(coefficient: 1000, constant: 0))
-    }
-
-    override class func baseUnit() -> RetinolActivityEquivalentMass {
-        return micrograms
     }
 
 }

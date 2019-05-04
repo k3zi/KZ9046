@@ -19,6 +19,7 @@ struct ReferenceValue {
         estimatedAverageRequirement = ear
         recommendedDietaryAllowance = rda
         tolerableUpperIntakeLevel = ul
+        // Use rda for ai if ai is not provided.
         adequateIntake = ai ?? rda
     }
 
